@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+</head>
+<body>
+
+<div class="content">
+  
+  <div class="form">
+    <form class="form-container" action="">
+      <div class="form-item col-5">
+        <h1 class="title">Contact Us</h1><br>
+        <p>First Name *</p>
+        <input class="input" type="text" required="required" id="name"/>
+        
+      </div><br>
+      <div class="form-item col-5"><br><br><br><br><br><br>
+        <p>Last Name *</p>
+        <input class="input" type="text" required="required" id="lastname"/>
+        
+      </div>
+      <div class="form-item">
+        <p>Email *</p>
+        <input class="input" type="email" required="required" id="email"/><br><br>
+        <p>Query Type *</p>
+        
+      </div>
+
+      
+
+      <input class="xd" type="radio" id="html" name="fav_language" value="HTML" ><br>
+      <label class="xd" for="html">General Enquiry</label><br>
+      <input class="xd" type="radio" id="css" name="fav_language" value="CSS">
+      <label class="xd" for="css">Support Request</label><br>
+      
+
+      
+
+
+      <div class="form-item">
+        <p>Message *</p>
+        <textarea class="textarea" required="required" id="textarea"></textarea><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I consent to being contacted by the team</label><br>
+
+
+      </div>
+      <div class="form-item">
+        <input class="btn-enviar" type="submit" value="Submit"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+  <br><br><br>
+</body>
+</html>
